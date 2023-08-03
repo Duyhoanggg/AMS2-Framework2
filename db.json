@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "name": "Sản phẩm 1",
+      "price": "6000",
+      "id": 2
+    },
+    {
+      "name": "Products demo ",
+      "price": "6000",
+      "id": 3
+    },
+    {
+      "name": "Sản phẩm 2",
+      "price": "10000",
+      "id": 4
+    },
+    {
+      "name": "Product ",
+      "price": "5000",
+      "id": 5
+    }
+  ]
+ 
+}
