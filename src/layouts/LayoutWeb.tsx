@@ -1,27 +1,30 @@
 import React from "react";
+import { Outlet } from "react-router";
 import { Link } from "react-router-dom";
-type Props = {};
-import { FcPaid } from "react-icons/fc";
-const Header = (props: Props) => {
+
+type Props = {}
+
+const LayoutWeb = (props: Props) => {
   return (
-    <header className="header_container bg-black">
+    <header >
       <nav className="p-4  flex justify-between">
         <ul className="flex justify-center space-x-4">
-          <li className="bg-white p-2 rounded-lg text-2xl">
+          <li className="bg-black p-2 text-white rounded-lg text-2xl">
             <Link to={"/"}>Home</Link>
           </li>
-          <li className="bg-white p-2 rounded-lg text-2xl">
+          <li className="bg-black text-white p-2 rounded-lg text-2xl">
             <Link to={"products"}>Product</Link>
           </li>
         </ul>
         <div className="text-4xl">
-          <Link className="bg-white p-2 rounded-lg text-2xl" to={"cart"}>
-            Giỏ hàng
+          <Link to={"cart"}>
+           <p className=" bg-black p-2 text-white rounded-lg text-2xl"> Giỏ hàng</p>
           </Link>
         </div>
       </nav>
+      <Outlet/>
     </header>
   );
-};
+}
 
-export default Header;
+export default LayoutWeb

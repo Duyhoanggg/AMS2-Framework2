@@ -1,12 +1,7 @@
 {
   "products": [
     {
-      "name": "Sản phẩm 1",
-      "price": "6000",
-      "id": 2
-    },
-    {
-      "name": "Products demo ",
+      "name": "Products demo  1234",
       "price": "6000",
       "id": 3
     },
@@ -19,7 +14,11 @@
       "name": "Product ",
       "price": "5000",
       "id": 5
+    },
+    {
+      "name": "hoang",
+      "price": "21121",
+      "id": 6
     }
   ]
- 
 }
